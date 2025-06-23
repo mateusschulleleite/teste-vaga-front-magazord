@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 
 export default function Header() {
   return (
-    <header className="bg-[#24292E] py-[21px] px-[23px] hidden sm:block">
+    <header className="bg-[#24292E] py-[21px] px-[23px] hidden md:block">
       <Container>
         <div className="flex items-center  text-white">
           <FaGithub size={24} color="#fff"/>
